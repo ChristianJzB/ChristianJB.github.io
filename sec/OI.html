@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Christian Jimenez Beltran</title>
+        <link rel="stylesheet" href="../css/format_OI.css">
+
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+        </script>   
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+              tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                processEscapes: true
+              }
+            });
+          </script>
+              
+          <script type="text/javascript"
+                  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+          </script>
+
+
+    </head>
+
+
+    <body>
+        <header>
+            <img src="../images/logo.jpg" class="logo-img" >
+            <nav>
+                <ul>
+                    <li><a href="../Index.html#home">Home</a></li>
+                    <li><a href="../Index.html#ri">CV</a></li>
+                    <li><a href="../sec/ISR.html">ISR</a></li>
+                    <li><a href="#OI">Other</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <main>
+            <section id="OI">
+                <div class="section-inner">
+                    <h1>Triple Pendulum</h1>
+
+                    <h2> Hamiltonian of a triple pendulum has the following equation:
+
+                            \[ H(q,p) = \| p_1 \|^2/2 + \| p_2 \|^2/2+\| p_3 \|^2/2 + V_\text{spring_1}(0,q_1)+  V_\text{spring_4}(0,q_3)+ V_\text{spring_2}(q_1,q_2) + V_\text{spring_3}(q_2,q_3) + V_\text{gravity}(q_1)+ V_\text{gravity}(q_2)+ V_\text{gravity}(q_3)\]
+                            where 
+                            
+                            \[V_\text{spring_1}(u,v) :=k_1( \|u-v\|-r_1)^2/2, V_\text{spring_2}(u,v) :=k_2( \|u-v\|-r_2)^2/2\]
+                            \[V_\text{spring_3}(u,v) :=k_3( \|u-v\|-r_3)^2/2, V_\text{spring_4}(u,v) :=k_4( \|u-v\|-r_4)^2/2\]
+                            \[V_\text{gravity}(q) := g q_y\]
+                            
+                            I present the solution of the hamiltonian system using the Verlet method.   
+                        </h2>
+                        <img src="../images/mygif.gif" class="gift" >                
+                </div>
+            </section>
+
+            <section id="Art">
+                <div class="section-inner">
+                    <div class="column-2a"> 
+                        <table class="table">
+
+                            <tr><th colspan="3"><span>Other Interest</span></th></tr>
+
+                            <tr>
+                            <td><img src="../images/alche.jpg" class="alche" width="250" height="auto"></td>
+                            <td>Surrealism aims to revolutionise human experience. It balances a rational vision of life with one that asserts the power of the unconscious and dreams. The movement’s artists find magic and strange beauty in the unexpected and the uncanny, the disregarded and the unconventional. At the core of their work is the willingness to challenge imposed values and norms, and a search for freedom.
+                                My favorite artist are Leonora Carrington and Remedios Varo.
+
+                                Carrington's work is identified and compared with the surrealist movement. Within the surrealist movement, there was a strong exploration of the women's body combining the mysterious forces of nature combined. During this time women artists correlated the woman figure with creative nature while using ironic stances.
+                               
+                                Varo often painted images of women in confined spaces, achieving a sense of isolation. While Varo did not deem her own work as feminist, "her work stretches the limits of and directly challenges confabulated, patriarchal ideals of femininity". Also, Varo's work redacts male interpretation of the female body. Her works focus on female empowerment and agency. The androgynous figures characteristic of her later work also challenge gender in that the figures do not fall neatly into gender normative categories, and often could be of either sex, creating a sense of the "middle area" between the two sexes and of the gender norms placed on them. One critic states, "Because the female body, a sacred erotic artistic space for men, is transformed by [Varo] into nongendered shapes and forms, namely animals and insects, the space becomes freed from monolithic sexual interpretation". 
+                            </td>
+                            <td><img src="../images/leo.jpg" class="leo" width="500" height="auto"></td>
+                            </tr>
+                        
+                      </table>
+                    </div>
+                
+                
+                </div>
+            </section>
+
+
+        </main>
+        <footer>
+            © Copyright Christian JB, 2022
+        </footer>
+    </body>
+
+
+
+
+
+
+
+</html>

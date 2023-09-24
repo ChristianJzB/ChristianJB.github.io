@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    margin-top: 70px;
+    font-family: sans-serif; /* Add this line */
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgb(167, 167, 167);
+}
+
+header * {
+    display: inline;
+    height: 70px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 90vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home .profile-img {
+    width: 220px;
+    border-radius: 10%; /* Add this line */
+}
+
+.logo-img{
+    max-width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Other Things */
+
+#home h1 {
+    font-size: 2em;
+}
+section h2 {
+    font-size: 1.5em;
+}
+#home h3 {
+    font-size: 1em;
+}
+#home li {
+    padding: 0.5px;
+    font-size: 1em;
+    color: rgb(219, 218, 218);
+}
+#ri p {
+    margin: 5px 0;
+}
+
+#ri li {
+    padding: 5px;
+    font-size: 1em;
+  
+}
+
+#ri th, td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+#ri table{
+    border-spacing: 5px;
+    text-align: center;
+    clear: both;
+}  
+
+#ri caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}  
+
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#ri table span{
+    font-size: 1.5em;
+}
+
+#isr{
+    height: 500vh;
+    align-items: center;
+    padding: 0.5px;
+    font-size: 1em;
+}
+
+
+
+
+
+
+#home {
+    background-image:  url('../images/Ed1.jpg');
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+#ri {
+    background-image:  url('../images/Ed2.jpg');
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#edu {
+    background-image:  url('../images/Ed2.jpg');
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+

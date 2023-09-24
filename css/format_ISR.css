@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    margin-top: 70px;
+    font-family: sans-serif; /* Add this line */
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgb(167, 167, 167);
+}
+
+header * {
+    display: inline;
+    height: 70px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    border: 1px solid black;
+    display: flex;
+}
+
+.logo-img{
+    max-width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Other Things */
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#isr {
+    background-image: url('../images/Ed4.jpg');
+    height: 2200px;
+    background-position: center;
+    background-size: cover;
+    color: #4bc48c;
+    font-size: 0.75em;
+}
+
+#isr h2{
+    color:rgb(34, 34, 34);
+    font-size: 2.2em;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#isr h3{
+    color:rgb(34, 34, 34);
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 0;
+    font-family:Arial;
+}
+
+#isr h4{
+    color:rgb(34, 34, 34);
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 0;
+}
+
+#isr h5{
+    color:rgb(216, 71, 71);
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+
+#isr .toc_container {
+    color:black;
+    text-decoration: none;
+
+}
+
+#isr .toc_title {
+    color:black;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.references a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: italic;
+}
+
+

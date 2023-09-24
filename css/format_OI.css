@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    margin-top: 70px;
+    font-family: sans-serif; /* Add this line */
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgb(167, 167, 167);
+}
+
+header * {
+    display: inline;
+    height: 70px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-img{
+    max-width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+/* Other Things */
+
+#OI {
+    background-image: url('../images/Ed1.jpg');
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    color: #080808;
+    font-size: 0.75em;
+}
+
+
+#Art {
+    background-image: url('../images/Ed2.jpg');
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    color: #080808;
+    font-size: 0.75em;
+}
+
+#OI h1{
+    font-size: 2em;
+    text-align: center;
+}
+
+#OI h2{
+    font-size: 1em;
+    text-align: center;
+}
+
+.table{
+    border-spacing: 5px;
+    text-align: center;
+    clear: both;
+}
+
+.table span{
+    font-size: 1.5em;
+}
+
+#OI th, td {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
